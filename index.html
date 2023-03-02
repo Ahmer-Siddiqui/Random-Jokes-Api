@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .box{
+            border: 1px solid white;
+            margin: auto;
+            width: 60vw;
+            font-size: 1.3rem;
+            min-height: 50vh;
+            color: white;
+            padding: 20px;
+            text-align: justify;
+        }
+        .box h1{
+            text-align: center;
+            margin-bottom: 5%;
+            font-size: 2.3rem;
+        }
+        
+        body img{
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            z-index: -1;
+            opacity: 0.9;
+        }
+        #btn{
+            display: block;
+            color: black;
+            font-size: 1.3rem;
+            padding: 5px;
+            border-radius: 10px;
+            font-weight: 700;
+            margin: auto;
+            margin-top: 15px ;
+            height: 40px;
+            width: 40%;
+            background-color: transparent;
+        }
+        div#jokes{
+            font-size: 1.3rem;
+        }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    <title>Make a Joke</title>
+</head>
+<body>
+    <img src="https://cdn.pixabay.com/photo/2016/12/01/22/16/smiley-1876329__340.jpg" alt="bg-img">
+    <div class="main">
+    
+        <div class="box">
+            <h1>Jokes</h1>
+            <div id="jokes"></div>
+            <button id="btn" >Joke</button>
+        </div>
+    </div>
+    <script src="joke.js"></script>
+</body>
+</html>
